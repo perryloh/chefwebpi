@@ -1,0 +1,14 @@
+{
+	"recipes" : [ 
+		{ 	"id": "workflowmanager", 
+		 	"desc": "workflow manager 1.0",
+			"recipe": ["servicebus1.0","workflowmanager"]
+		},
+		{ 
+			"id": "python",
+			"desc": "python + tools",
+			"recipe": ["python","pythontools"]
+		}
+
+	]	
+}
